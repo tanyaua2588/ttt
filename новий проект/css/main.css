@@ -1,0 +1,141 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'PT Sans Caption', sans-serif;*/
+html,body{
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    min-width: 280px;
+}
+/*.........
+HEADER.......*/
+.header {
+    background:#696969;
+    height: 25px;
+    min-height: 70px;
+    
+    color:#FFF;
+    text-align:left;
+    
+    display: flex;
+    flex-direction:row;
+   margin-right: 300px;
+    margin-left: 300px;
+    position: relative;
+}
+.header_title {
+    font-size:36px;
+    color: aliceblue;
+    margin-bottom: 15 px;
+    font-family: "Merriweather", serif;
+    margin-top:10px;
+    margin-left: 30px;
+    
+}
+.header_E {
+    font-size: 30px;
+    width:65px;
+    height: 65px;
+    margin-top: auto;
+    border:2px solid white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header_slogan {
+    color: #FFD700;
+    font-size: 30px;
+    text-align: center;
+    font-family: serif;
+    margin-top: 70px;
+    
+}
+.header_zagolovok {
+    color:darkgray;
+    font-size:60px;
+    text-align: center;
+    font-family:sans-serif
+}
+.header_menu {
+ font-size: 30px;
+ border:12px solid #2F4F4F;
+ background-color:#2F4F4F;
+    position: absolute;
+ margin-left: 95.5%;
+}
+.portfolio_title {
+  font-size: 70px;
+  font-family: serif;
+  background-color: #FFD700;
+  color: aliceblue;
+  text-align: left;
+  margin-left: 300px;
+  margin-right:300px;
+  padding-left:20px;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+.body_img {
+   text-align: center;
+  margin-left: 300px;
+  margin-right:300px;
+}
+img {
+  width:100%
+}
+.poloska {
+width: 50px;
+border-bottom: 5px solid aliceblue;
+padding-top: 50px;
+}  
+.text {
+    font-size: 25px;
+    font-family:monospace;
+    text-align: left;
+    padding-left: 315px;
+    padding-right: 400px;
+    padding-top: 50px;
+}
+.footer {
+  font-size: 50px;
+  font-family:sans-serif;
+  background-color: #000000;
+  color: aliceblue;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  margin-right:300px;
+  padding-left:20px;
+  padding-top:40px;
+  padding-bottom: 20px;
+    margin-top: 40px
+    
+}   
+.poloska2 {
+width: 50px;
+border-bottom: 5px solid aliceblue;
+padding-top: 10px;
+margin-bottom: 20px;
+}  
+.nomer1 {
+padding-top: 10px;
+}
+.nomer2 {
+padding-top: 10px;
+}
+.email {
+ margin-left: 300px;
+ margin-right:300px;
+ text-align: center;
+ padding-top: 50px;
+ margin-top: 170px;
+    padding-bottom: 50px;
+    
+ font-size: 50px;
+ font-family:serif;
+ border: 3px solid 	#383838;
+}

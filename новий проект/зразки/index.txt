@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Сайт портфоліо</title>
+    <!---Інструкція для IE--->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!---Відображати сторінку в масштабі 100%--->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css 
+">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="img/x-img" href="img/favicon/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption:400,700" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+  ...........................................................................................................................HEADER..................................................................................................-->
+    <div class="header">
+        <div class="header_title">Юхимчук Світлана</div>
+        <div class="header_slogan">Верстка сайтів HTML i CSS <br> HTML5 CSS3 JS JQuery </div>
+        <div class="header_arrow"><i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <!--
+  ..................................................................................................................PORTFOLIO................................................................-->
+
+    <div class="portfolio">
+        <div class="container">
+            <div class="title">Портфоліо</div>
+            <div class="row">
+
+                <!--Робота в портфоліо-->
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img">
+                            <img src="img/portfolio/project_organica.jpg" alt="Макет Органіка">
+                        </div>
+
+                        <div class="portfolio-item__title"><a href="work-organica.html">Макет Органіка</a></div>
+
+
+                        <div class="portfolio-item__text">
+                            <p>Верстка односторінкового сайту по PSD макету</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!--///Робота в портфоліо-->
+                <!--Робота в портфоліо-->
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img"><img src="img/portfolio/project_apollo.jpg" alt="Макет Аполло"></div>
+
+
+                        <div class="portfolio-item__title"><a href="work-apollo.html">Навчальний макет Аполло</a></div>
+
+
+                        <div class="portfolio-item__text">
+                            <p>Верстка лендингу хостинг-компанії.Мобільна адаптивність</p>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <!--///Робота в портфоліо-->
+                <!--Робота в портфоліо-->
+                <div class="col-4">
+                    <div class="portfolio-item">
+                        <div class="portfolio-item__img"><img src="img/portfolio/project_portfolio.jpg" alt="Сайт портфоліо"></div>
+
+
+
+                        <div class="portfolio-item__title"> <a href="work-portfolio.html">Сайт портфоліо</a></div>
+
+
+                        <div class="portfolio-item__text">
+                            <p>Верстка особистого сайту портфоліо,на якому ви знаходитесь</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--///Робота в портфоліо-->
+
+
+    <!--...............................FOOTER........................................................-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <p class="footer__name">Юхимчук Світлана</p>
+                    <p>HTML Верстка і розробка тексту</p>
+                </div>
+                <div class="col-4">
+                   <p class="footer__social"> Мої профілі в соцмережах:</p>
+                   <p class="footer__social-icons">
+                   <a href="#" target="_blank">
+                    <i class="fa fa-vk" aria-hidden="true"></i>  </a> 
+                   
+                    <a href="#" target="_blank">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a> 
+                   
+                    <a href="#" target="_blank">
+                      <i class="fa fa-instagram" aria-hidden="true"></i>
+                       </a> 
+                   
+                    <a href="#" target="_blank">
+                      <i class="fa fa-facebook" aria-hidden="true"></i>
+                       </a> 
+                   
+                    </p> 
+                </div>
+                <div class="col-4">
+                    <div><a href="a" class="button" target="_blank"> Зв'язатися зі мною Вконтакті</a></div>
+                    <p>Напишіть мені,щоб замовити чи взнати<br>вартість верстки вашого проекту</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
